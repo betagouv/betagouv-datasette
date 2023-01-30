@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "betagouv-datasette"
+version = "0.1.0"
+description = "les données de beta.gouv.fr sous un format exploitable"
+authors = ["Adrien Di Pasquale <adrien.di_pasquale@beta.gouv.fr>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+datasette = "^0.64.1"
+sqlite-utils = "^3.30"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
