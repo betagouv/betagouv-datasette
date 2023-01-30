@@ -10,3 +10,7 @@ Il y a aussi une API JSON documentée sur https://docs.datasette.io/en/stable/js
 
 Par exemple pour filtrer les startups ayant défini une URL pour publier leur budget : https://betagouv-datasette.fly.dev/data/startups.json?_shape=objects&budget_url__notnull=1
 
+TODO : 
+
+- [ ] automatiser le rafraîchissement des données
+- [ ] publier les events et les phases dans des tables à part avec des jointures 
