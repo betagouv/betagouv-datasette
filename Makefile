@@ -9,7 +9,4 @@ refresh_data:
 	poetry run python scripts/refresh_data.py
 
 deploy:
-	poetry run datasette publish fly \
-		--app betagouv-datasette \
-		--metadata app/metadata.yml \
-		app/*.sqlite
+	poetry run datasette publish fly --app betagouv-datasette --metadata app/metadata.yml app/*.sqlite

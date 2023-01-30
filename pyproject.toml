@@ -11,6 +11,7 @@ python = "^3.10"
 datasette = "^0.64.1"
 sqlite-utils = "^3.30"
 requests = "^2.28.2"
+datasette-publish-fly = "^1.3"
 
 
 [build-system]
